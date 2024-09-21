@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-semibold;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-health-blue-600 hover:bg-health-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-health-blue-500 transition-colors;
+}
+
+.input {
+  @apply mt-1 block w-full border border-gray-300 rounded-md shadow-sm py-3 px-4 bg-gray-50 text-gray-900 placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-health-blue-500 focus:border-health-blue-500 sm:text-sm transition-colors;
+}
